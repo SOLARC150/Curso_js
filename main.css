@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1333px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.container input,
+.container p {
+    margin-right: 26px;
+    padding: 8px;
+}
+
+.container button {
+    padding: 15px;
+    text-align: center;
+}
+
+#paragrafo {
+    display:flex;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 26px;
+}
+
+.mensagemSucesso {
+    background-color: rgb(5, 204, 5);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-inline: 30px;
+    display: none;
+}
+
+.mensagemFalha {
+    background-color: red;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-inline: 30px;
+    display: none;
+}
+
+

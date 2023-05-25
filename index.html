@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de numeros</title>
+
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <section>
+        <form id="form">
+            <p id="paragrafo">Coloque o numero maior na caixa B</p>
+            <div class="container">
+                <p>Numero A</p>
+                <input id="numeroA" type="number" placeholder="Insira um numero">
+                <p>Numero B</p>
+                <input id="numeroB" type="number" placeholder="Insira um numero">
+                <button type="submit">Testar</button>
+            </div>
+        </form>
+    </section>
+    <section>
+        <div class="container">
+            <div class="mensagemSucesso">
+                Esta Correto o numero <b>${numeroB}</b> é maior que o numero <b>${numeroA}</b> !!
+            </div>
+            <div class="mensagemFalha">
+                Esta Errado o numero B é maior que o numero A !!
+            </div>
+        </div>
+    </section>
+<script src="./main.js"></script>
+</body>
+</html>
